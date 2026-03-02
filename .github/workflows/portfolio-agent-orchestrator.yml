@@ -35,8 +35,7 @@ jobs:
             company: platform-core
           - repo: GoPolymarket/polymarket-go-sdk
             company: platform-core
-          - repo: GoPolymarket/polygate
-            company: company-b
+          # polygate temporarily excluded from portfolio auto-dispatch
           - repo: GoPolymarket/polymarket-trader
             company: company-a
 

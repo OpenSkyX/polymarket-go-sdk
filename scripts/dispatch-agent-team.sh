@@ -23,7 +23,6 @@ fi
 pairs=(
   "GoPolymarket/go-builder-relayer-client:platform-core"
   "GoPolymarket/polymarket-go-sdk:platform-core"
-  "GoPolymarket/polygate:company-b"
   "GoPolymarket/polymarket-trader:company-a"
 )
 
