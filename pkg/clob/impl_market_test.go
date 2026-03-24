@@ -67,7 +67,7 @@ func TestMarketMethods(t *testing.T) {
 			"/simplified-markets":          `{"data":[{"id":"s1"}]}`,
 			"/sampling-markets":            `{"data":[{"id":"sam1"}]}`,
 			"/sampling-simplified-markets": `{"data":[{"id":"ss1"}]}`,
-			"/book?token_id=t1":            `{"market_id":"m1","bids":[],"asks":[]}`,
+			"/book?token_id=t1":            `{"market":"m1","bids":[],"asks":[]}`,
 			"/midpoint?token_id=t1":        `{"midpoint":"0.5"}`,
 			"/price?token_id=t1":           `{"price":"0.51"}`,
 			"/spread?token_id=t1":          `{"spread":"0.01"}`,
